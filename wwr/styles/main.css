@@ -1,0 +1,22 @@
+img { 
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+}
+
+body { 
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+nav a { 
+    text-decoration: none;
+}
+
