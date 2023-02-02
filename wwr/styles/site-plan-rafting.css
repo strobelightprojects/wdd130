@@ -11,7 +11,7 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Raleway", sans-serif;
+  --heading-font: 'Raleway', sans-serif;
   --paragraph-font: sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
