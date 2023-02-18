@@ -105,7 +105,7 @@ main section img {
 }
 
 .msg {
-    background-color: #9CC7E6;
+    background-color: whitesmoke;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
