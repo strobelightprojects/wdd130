@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Mukta:wght@200&family=Raleway:wght@100&display=swap');
+*{  --heading-font: "Gloock", "Mukta";
+    --paragraph-font: "Raleway", sans-serif;
+  }
+
+
+
+  header {
+    background-color: #3a9483;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    background-color:#3a9483;
+    color:#f5f5f5;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    color:#4fe8ab; 
+}
+
+.logo {
+    width: 80px;
+  padding: 5px;
+}
+
+
+/*home page css*/
+body {
+    background-color: #4fe8ab;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.homeimg1{
+grid-column: 1/1;
+grid-row: 1/1;
+margin: 10px;
+
+}
+
+#hometext1{
+grid-column: 2/2;
+margin: 10px;
+}
+
+
+#hometext2{
+grid-column: 1/1;
+grid-row: 2/2;
+margin: 10px;
+
+}
+.homeimg2{
+
+grid-row: 2/2 ;
+grid-column: 2/2;
+margin: 10px;
+
+}
+ 
+
+
+
+/*eye page css*/
+#eyeimg1{
+    grid-column: 2/2;
+    margin: 10px;
+}
+
+#eyetext1{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    margin: 10px;
+}
+
+
+#eyeimg2{
+    margin: 10px;
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+ 
+
+#eyetext2{
+    grid-column: 2/2;
+
+    margin: 10px;
+}
+
+
+
+/*cyprus page css*/
+
+
+
+
+#cyprusimg1{
+
+    margin: 10px;
+}
+
+#cyprustext1{
+
+    margin: 10px;
+}
+
+
+#cyprusimg2{
+    margin: 10px;
+}
+ 
+
+#hometext2{
+
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #3a9483;
+    color: #f5f5f5;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
