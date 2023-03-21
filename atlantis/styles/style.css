@@ -34,7 +34,6 @@ nav a:hover{
 }
 
 
-/*home page css*/
 body {
     background-color: #4fe8ab;
     font-size: 22px;
@@ -48,6 +47,7 @@ main {
 }
 
 
+/*home page css*/
 .homeimg1{
 grid-column: 1/1;
 grid-row: 1/1;
