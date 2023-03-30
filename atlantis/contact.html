@@ -19,7 +19,7 @@
             <a href="cyprus.html">Cyprus</a>
             <a href="contact.html">Contact</a>
             
-        
+        </div>
         </nav>
     </header>
 
@@ -155,11 +155,11 @@ button {
       <ul>
         <li>
           <label for="name">Name:</label>
-          <input type="text" id="name" name="user_name" />
+          <input type="text" id="name" name="user_name">
         </li>
         <li>
           <label for="mail">Email:</label>
-          <input type="email" id="mail" name="user_email" />
+          <input type="email" id="mail" name="user_email">
         </li>
         <li>
           <label for="msg">Suggestions:</label>
@@ -167,11 +167,10 @@ button {
         </li>
       </ul>
 
-
-
       <li class="button">
           <button type="submit">Send your message</button>
         </li>
+      
       </form>
 </div>
       
@@ -209,5 +208,4 @@ button {
           feedbackElement.style.display = "block";
           // add a class to move everything down so our message doesn't cover it.
           document.body.classList.toggle('moveDown');
-      });
-  </script>
+      }) </script>
